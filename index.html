@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header id="hero">
+        <nav>
+            <a href="#" class="logo">logo</a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#header" class="light">Home</a></li>
+                <li><a href="#about" class="light">About</a></li>
+                <li><a href="#info" class="light">Portfolio</a></li>
+                <li><a href="#price" class="light">Blogs</a></li>
+                <li><a href="#price" class="light">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h2 class="small">Creative Agency</h2>
+            <h1 class="big">Hero header</h1>
+            <h3 class="light">The best in town</h3>
+            <a href="#">
+                <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="27" cy="26" r="18" stroke="white" stroke-width="2" />
+                    <path d="M22.41 23.2875L27 27.8675L31.59 23.2875L33 24.6975L27 30.6975L21 24.6975L22.41 23.2875Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
+    </header>
+    <section class="feature">
+        <div class="content">
+            <div class="textBox">
+                <h3 class="small">About Our Agency</h3>
+                <h2>We create awesome prototypes, plugins, and templates.</h2>
+                <h3 class="light">For instance, whenever I go back to the guest house during the morning to copy out the
+                    contract, these gentlemen are always still sitting there eating their breakfasts.</h3>
+            </div>
+            <div class="imgBox">
+                <img src="./img/image.png" alt="image">
+            </div>
+            <div class="card">
+                <div class="description">
+                    <img src="./img/icon_1.png" alt="desing_icon">
+                    <h1>Web Desing</h1>
+                    <p>Research, user experience testing, mockups, and prototypes</p>
+                </div>
+                <div class="description">
+                    <img src="./img/icon_2.png" alt="desing_icon">
+                    <h1>Development</h1>
+                    <p>Research, user experience testing, mockups, and prototypes</p>
+                </div>
+                <div class="description">
+                    <img src="./img/icon_3.png" alt="desing_icon">
+                    <h1>Research</h1>
+                    <p>Research, user experience testing, mockups, and prototypes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="content">
+            <h3 class="small">Portfolio</h3>
+            <h1>Browse Our Projects</h1>
+            <button class="button active"><span>All</span></button>
+            <button class="button"><span>Landings</span></button>
+            <button class="button"><span>Other</span></button>
+            <div class="gallery">
+                <div class="small_block"></div>
+                <div class="big_block"></div>
+                <div class="big_block"></div>
+                <div class="small_block"></div>
+                <div class="small_block"></div>
+                <div class="big_block"></div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="content">
+            <h3 class="small">Updates & News</h3>
+            <h1>Recent Blog Posts</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="imgBox">
+                        <img src="./img/image.png" alt="image">
+                    </div>
+                    <div class="textBox">
+                        <h3 class="small">Option</h3>
+                        <p class="light">Why you should start using Figma for prototyping.</p>
+                        <h3 class="date">05 June 2020</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                        <img src="./img/image.png" alt="image">
+                    </div>
+                    <div class="textBox">
+                        <h3 class="small">Option</h3>
+                        <p class="light">Why you should start using Figma for prototyping.</p>
+                        <h3 class="date">05 June 2020</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                        <img src="./img/image.png" alt="image">
+                    </div>
+                    <div class="textBox">
+                        <h3 class="small">Option</h3>
+                        <p class="light">Why you should start using Figma for prototyping.</p>
+                        <h3 class="date">05 June 2020</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <h3 class="light">Copyright © 2020, Hero Header Inc.</h3>
+            <a href="#">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.6933 11.2601C11.04 10.9468 11.4933 10.7468 12 10.7468C13.0733 10.7468 13.9467 11.6201 13.9467 12.6934C13.9467 13.7668 13.0733 14.6401 12 14.6401C10.9267 14.6401 10.0533 13.7668 10.0533 12.6934C10.0533 12.5468 10.0733 12.4001 10.1067 12.2601L5.36 9.48677C5 9.82011 4.52667 10.0268 4 10.0268C2.89333 10.0268 2 9.13344 2 8.02677C2 6.92011 2.89333 6.02677 4 6.02677C4.52667 6.02677 5 6.23344 5.36 6.56677L10.06 3.82677C10.0267 3.67344 10 3.52011 10 3.36011C10 2.25344 10.8933 1.36011 12 1.36011C13.1067 1.36011 14 2.25344 14 3.36011C14 4.46677 13.1067 5.36011 12 5.36011C11.4733 5.36011 11 5.15344 10.64 4.82011L5.94 7.56011C5.97333 7.71344 6 7.86677 6 8.02677C6 8.18677 5.97333 8.34011 5.94 8.49344L10.6933 11.2601ZM12.6667 3.36011C12.6667 2.99344 12.3667 2.69344 12 2.69344C11.6333 2.69344 11.3333 2.99344 11.3333 3.36011C11.3333 3.72677 11.6333 4.02677 12 4.02677C12.3667 4.02677 12.6667 3.72677 12.6667 3.36011ZM4 8.69344C3.63333 8.69344 3.33333 8.39344 3.33333 8.02677C3.33333 7.66011 3.63333 7.36011 4 7.36011C4.36667 7.36011 4.66667 7.66011 4.66667 8.02677C4.66667 8.39344 4.36667 8.69344 4 8.69344ZM11.3333 12.7068C11.3333 13.0734 11.6333 13.3734 12 13.3734C12.3667 13.3734 12.6667 13.0734 12.6667 12.7068C12.6667 12.3401 12.3667 12.0401 12 12.0401C11.6333 12.0401 11.3333 12.3401 11.3333 12.7068Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
